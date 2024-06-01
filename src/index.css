@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body {
   margin: 0;
 
-  font-family: "Satisfy", cursive;
+  font-family: "Oswald", sans-serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,7 +18,7 @@ body {
 }
 
 code {
-  font-family: "Satisfy", cursive;
+  font-family: "Oswald", sans-serif;
 }
 .rock {
   background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
@@ -170,7 +170,7 @@ h3 {
   min-width: 20%;
   margin-top: 1rem;
 
-  font-family: "Satisfy", cursive;
+  font-family: "Oswald", sans-serif;
 }
 button:hover {
   background-color: #ff0000;
@@ -179,7 +179,7 @@ button:hover {
 .pokeinfo {
   margin: 0 25px;
 
-  font-family: "Satisfy", cursive;
+  font-family: "Oswald", sans-serif;
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
 }
 .pokeinfo:hover {
