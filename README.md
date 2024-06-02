@@ -1,7 +1,9 @@
-# Getting Started with Create React App
+# PokeDex - Pokemon Kingdom
 
 ![App Preview](/images/screenshots/img1.png)
 ![App Preview](/images/screenshots/img2.png)
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
