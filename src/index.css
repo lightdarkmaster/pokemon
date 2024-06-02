@@ -93,7 +93,7 @@ code {
 .search{
   position: relative;
   width: 50%;
-  height: 40px;
+  height: 100px;
   margin: auto;
   justify-content: center;
   padding: 10px;
@@ -107,6 +107,9 @@ code {
   padding: 5px;
   border-radius: 10px;
   border: 0;
+  font-size: 15px;
+  color: red;
+  font-weight: 400;
 }
 
 .all-container {

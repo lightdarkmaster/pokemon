@@ -46,7 +46,7 @@ function App() {
         <input
           className="searchInput"
           type="text"
-          placeholder="Search"
+          placeholder="S e a r c h"
           value={search}
           onChange={handleSearchChange}
         />
@@ -78,7 +78,7 @@ function App() {
             />
           ))}
         </div>
-        <button className="load-more" onClick={() => getAllPokemons()}>
+        <button className="Load More" onClick={() => getAllPokemons()}>
           More Pokemons
         </button>
       </div>
