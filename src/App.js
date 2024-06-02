@@ -3,7 +3,7 @@ import PokemonThumbnail from "./Components/PokemonThumbnail";
 
 function App() {
   const [allPokemons, setAllPokemons] = useState([]);
-  const [loadPoke, setLoadPoke] = useState('https://pokeapi.co/api/v2/pokemon?limit=500');
+  const [loadPoke, setLoadPoke] = useState('https://pokeapi.co/api/v2/pokemon?limit=100');
   const [search, setSearch] = useState(""); // New state for search input
 
   const getAllPokemons = async () => {
@@ -78,7 +78,7 @@ function App() {
             />
           ))}
         </div>
-        <button className="Load More" onClick={() => getAllPokemons()}>
+        <button className="load-more" onClick={() => getAllPokemons()}>
           More Pokemons
         </button>
       </div>
