@@ -7,7 +7,7 @@
 
 Search pokemon in our Pokedex - a Pokemon information system that is free..
 1. Search name of the pokemon and show more pokemon..
-2. Enjoy. !
+2. Enjoy. pokedex.com !
 3. Note:  the ID is still not working..you can't search using ID.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
