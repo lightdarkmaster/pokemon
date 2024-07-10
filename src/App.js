@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="app-container">
       <h1>Pokemon Kingdom</h1>
-      <h2>by: Christian Barbosa</h2>
+      <h2>by: Christian Barbosa - BSIT</h2>
 
       <div className="search">
         <input
