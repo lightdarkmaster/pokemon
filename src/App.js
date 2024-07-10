@@ -3,7 +3,9 @@ import PokemonThumbnail from "./Components/PokemonThumbnail";
 
 function App() {
   const [allPokemons, setAllPokemons] = useState([]);
-  const [loadPoke, setLoadPoke] = useState('https://pokeapi.co/api/v2/pokemon?limit=100');
+  const [loadPoke, setLoadPoke] = useState(
+    "https://pokeapi.co/api/v2/pokemon?limit=100"
+  );
   const [search, setSearch] = useState(""); // New state for search input
 
   const getAllPokemons = async () => {
@@ -13,7 +15,9 @@ function App() {
 
     const createPokemonObject = async (result) => {
       result.forEach(async (pokemon) => {
-        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon.name}`);
+        const res = await fetch(
+          `https://pokeapi.co/api/v2/pokemon/${pokemon.name}`
+        );
         const data = await res.json();
         setAllPokemons((currentList) => [...currentList, data]);
       });
