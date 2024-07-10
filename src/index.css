@@ -196,3 +196,32 @@ button:hover {
 h3 {
   text-decoration: underline;
 }
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 2rem 0.5rem;
+  }
+
+  .search {
+    width: 90%;
+  }
+
+  .searchInput {
+    width: 100%;
+  }
+
+  .thumb-container {
+    min-width: 120px;
+  }
+
+  .thumb-container img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .load-more {
+    min-width: 50%;
+  }
+}
