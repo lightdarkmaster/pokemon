@@ -94,3 +94,4 @@ function App() {
 export default App;
 
 //TODO: make this site responsive
+// adjust this to smaller resolutions
